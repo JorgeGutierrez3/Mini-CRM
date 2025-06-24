@@ -20,7 +20,7 @@ Un sistema CRM (Customer Relationship Management) desarrollado en Python con Str
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tu-usuario/crm-basico.git
+git clone https://github.com/JorgeGutierrez3/Mini-CRM
 cd crm-basico
 ```
 
