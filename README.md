@@ -23,24 +23,29 @@ Un sistema CRM (Customer Relationship Management) desarrollado en Python con Str
 git clone https://github.com/JorgeGutierrez3/Mini-CRM
 cd crm-basico
 ```
+2. Crea e inicializa un entorno virtual
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-2. Instala las dependencias:
+3. Instala las dependencias:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Inicializa la base de datos** (solo la primera vez):
+4. **Inicializa la base de datos** (solo la primera vez):
 ```bash
 python main.py
 ```
 Este comando creará la base de datos `crm.db` con las tablas necesarias y datos de ejemplo.
 
-4. Ejecuta la aplicación:
+5. Ejecuta la aplicación:
 ```bash
 streamlit run app.py
 ```
 
-5. Abre tu navegador en `http://localhost:8501`
+6. Abre tu navegador en `http://localhost:8501`
 
 ## 🏗️ Arquitectura del Sistema
 
